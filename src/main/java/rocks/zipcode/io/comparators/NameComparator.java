@@ -19,7 +19,6 @@ public class NameComparator implements Comparator<Item> {
                     ans = (item1.getName().charAt(i) - item2.getName().charAt(i));
                     break;
                 }
-
         }
         return ans;
     }
